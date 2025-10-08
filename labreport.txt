@@ -1,0 +1,23 @@
+**Project Report**
+
+**Design Overview:**
+- Implemented a reliable data transfer protocol using CNET with features like sequence numbers, acknowledgments, checksums, and handling of lost/corrupted frames.
+- Designed the program to support multiple simultaneous connections using a connection table.
+- Implemented timeout mechanisms for retransmission of frames and handling of out-of-order frames.
+- Utilized checksums to ensure data integrity and hop count to prevent loops in the network.
+
+**Program Status:**
+- The program is functional and successfully transfers data reliably over the network.
+- Difficulties encountered:
+  - Ensuring proper handling of lost and corrupted frames while maintaining the integrity of data transfer.
+  - Managing multiple simultaneous connections and ensuring proper sequencing of frames.
+  - Optimizing timeout mechanisms to balance reliability and efficiency.
+
+**Testing and Results:**
+- Tested the program using simulated network conditions in CNET.
+- Used various scenarios to simulate different network conditions, such as lossy and corrupt links, to verify the reliability of data transfer.
+- Detected and resolved API errors related to reading/writing data from/to the physical layer and handling of timers and events.
+- Verified the correctness of data transfer by comparing sent and received data, ensuring accurate sequencing and acknowledgment.
+
+**Acknowledgments:**
+- External resource (Chat-GPT) used to type in project report

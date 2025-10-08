@@ -1,0 +1,27 @@
+
+# routers
+router R1
+router R2
+
+# hosts
+host H1
+host H2
+host H3
+host H4
+
+# links with loss and corruption
+link LossyLink1 H1 R1
+link LossyLink2 H2 R1
+link LossyLink3 H3 R2
+link LossyLink4 H4 R2
+
+# parameters for loss and corruption
+LossyLink1 loss = 10%
+LossyLink2 loss = 5%
+LossyLink3 loss = 8%
+LossyLink4 loss = 3%
+
+LossyLink1 corruption = 0.5%
+LossyLink2 corruption = 0.2%
+LossyLink3 corruption = 0.3%
+LossyLink4 corruption = 0.1%
