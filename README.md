@@ -1,2 +1,2 @@
 # TCP-UDP-connection
-Created a TCP/UDP connection between servers using C.Net
+Developed a TCP/UDP connection system in C.Net capable of managing multiple server–client connections with robust data transmission and error-handling mechanisms.
